@@ -7,7 +7,7 @@
 }
 
 /* common style part start*/
-h1 {
+h1{
     width: 525px;
     margin-left: auto;
     font-family: 'Work Sans';
@@ -18,33 +18,30 @@ h1 {
     color: #151414;
 }
 
-h2 {
+h2{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    color: #151414;
     width: 288px;
 }
 
-h3 {
-    /* width: 156px; */
+h3{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    color: #151414;
 }
 
-p {
+p{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #444343;
+    /* color: #444343; */
 }
 img{
     max-width: 100%;
@@ -108,13 +105,14 @@ img{
 }
 
 /* plan section start */
-.planing_area>h2{
+.planing_area>h2,.skills_area h2{
     margin: 0 auto 40px;
 }
-.plans_content{
+.plans_content,.skills_content{
     display: flex;
-    margin-bottom: 130px;
+    margin-bottom: 80px;
     text-align: center;
+    gap: 30px;
 }
 .plans_item{
     flex: 1;
@@ -142,3 +140,53 @@ img{
     background: #FFFFFF;
     color: #f2771f;
 }
+/* plan section end */
+
+/* skills_part statr */
+.skills_content .skills_item{
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    padding: 50px;
+    color: #ffffff;
+}.skills_item .icon{
+    font-size: 40px;
+}
+/* skills_part statr */
+
+/* footer part start */
+.footer_part{
+    display: flex;
+    background: #000;
+    color: #FFFFFF;
+}
+.f-left{
+    flex: 2;
+}
+.f-left p{
+    padding: 10px 0;
+    width: 480px;
+    color: #FFFFFF;
+}
+.f-left a{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.f-right{
+    flex: 1;
+}
+.f-right input{
+    outline: none;
+    border: 1px solid white;
+    padding: 1rem;
+    display: block;
+    margin: 20px 0;
+    border-radius: 5px;
+    background:transparent;
+}
+.f-right a{
+    background: #ffffff;
+    color: #f2771f;
+}
+/* footer part start */

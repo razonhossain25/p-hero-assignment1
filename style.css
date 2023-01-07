@@ -26,7 +26,6 @@ h2 {
     line-height: 47px;
     color: #151414;
     width: 288px;
-    margin-left: auto;
 }
 
 h3 {
@@ -46,8 +45,9 @@ p {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
-    width: 494px;
-    margin-left: auto;
+}
+img{
+    max-width: 100%;
 }
 .btn{
     padding: 15px 20px;
@@ -59,6 +59,9 @@ p {
     color: #FFFFFF;
     border-radius: 5px;
     display: inline-block;
+}
+.container{
+    padding: 130px 230px;
 }
 /* common style part end*/
 
@@ -74,8 +77,32 @@ p {
 
 .vaner_part p {
     padding: 25px 0 30px;
+    margin-left: auto;
+    width: 494px;
 }
 
 .vaner_part a {
     background: #f2771f;
+}
+/* vaner part end */
+/* story part start */
+
+.story_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.story_part aside{
+    flex-basis: 50%;
+}
+.story_part article{
+    flex-basis: 50%;
+}
+.story_part article p{
+    width: 416px;
+    padding: 24px 0 16px;
+}
+.story_part article p i{
+    color: rgb(10, 177, 149);
+    padding-right: 8px;
 }

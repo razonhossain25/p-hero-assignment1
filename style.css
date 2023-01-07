@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-    width: 156px;
+    /* width: 156px; */
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -105,4 +105,40 @@ img{
 .story_part article p i{
     color: rgb(10, 177, 149);
     padding-right: 8px;
+}
+
+/* plan section start */
+.planing_area>h2{
+    margin: 0 auto 40px;
+}
+.plans_content{
+    display: flex;
+    margin-bottom: 130px;
+    text-align: center;
+}
+.plans_item{
+    flex: 1;
+}
+.thinking{
+    width: 100%;
+    background: url("images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.thinking_content{
+    width: 100%;
+    height: 100%;
+    padding: 60px 65px;
+    background: linear-gradient(to right,#98450ad8,transparent);
+    border-radius: 10px;
+}
+.thinking_content h2{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.thinking_content a{
+    background: #FFFFFF;
+    color: #f2771f;
 }
